@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recordatorios</string>
+    <string name="titulo_pantalla">Mis recordatorios</string>
+    <string name="subtitulo_datos_simulados">Datos simulados · Actividad 1</string>
+    <string name="filtro_todos">Todos</string>
+    <string name="filtro_pendientes">Pendientes</string>
+    <string name="filtro_completados">Completados</string>
+    <string name="filtro_alta">Prioridad alta</string>
+    <string name="resumen_pendientes">Pendientes</string>
+    <string name="resumen_completados">Completados</string>
+    <string name="resumen_alta">Alta prioridad</string>
+    <string name="seccion_categorias">Categorías</string>
+    <string name="seccion_descartados">Borradores descartados por validación</string>
+    <string name="sin_resultados">No hay recordatorios para este filtro.</string>
+    <string name="cargando">Cargando recordatorios…</string>
+    <string name="sin_fecha">Sin fecha límite</string>
+</resources>
