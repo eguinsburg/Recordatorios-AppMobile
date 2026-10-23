@@ -1,18 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Recordatorios</string>
-    <string name="titulo_pantalla">Mis recordatorios</string>
-    <string name="subtitulo_datos_simulados">Datos simulados · Actividad 1</string>
-    <string name="filtro_todos">Todos</string>
-    <string name="filtro_pendientes">Pendientes</string>
-    <string name="filtro_completados">Completados</string>
-    <string name="filtro_alta">Prioridad alta</string>
-    <string name="resumen_pendientes">Pendientes</string>
-    <string name="resumen_completados">Completados</string>
-    <string name="resumen_alta">Alta prioridad</string>
-    <string name="seccion_categorias">Categorías</string>
-    <string name="seccion_descartados">Borradores descartados por validación</string>
-    <string name="sin_resultados">No hay recordatorios para este filtro.</string>
-    <string name="cargando">Cargando recordatorios…</string>
-    <string name="sin_fecha">Sin fecha límite</string>
+
+    <!-- Listado -->
+    <string name="lista_titulo">Mis recordatorios</string>
+    <string name="lista_nuevo">Nuevo</string>
+    <string name="lista_nuevo_descripcion">Crear un recordatorio</string>
+    <string name="lista_cantidad">%1$d recordatorios</string>
+    <string name="lista_cargando">Cargando recordatorios…</string>
+    <string name="lista_vacia_titulo">Todavía no hay recordatorios</string>
+    <string name="lista_vacia_mensaje">Creá tu primer recordatorio para organizar tus tareas.</string>
+    <string name="lista_vacia_accion">Crear recordatorio</string>
+    <string name="lista_error_titulo">No pudimos cargar los recordatorios</string>
+
+    <!-- Simulación de estados -->
+    <string name="simular_menu">Simular estados</string>
+    <string name="simular_datos">Cargar datos de ejemplo</string>
+    <string name="simular_vacio">Simular lista vacía</string>
+    <string name="simular_error_carga">Simular error al cargar</string>
+    <string name="simular_error_guardado">Simular error al guardar</string>
+    <string name="simular_aviso_guardado">El próximo guardado va a fallar</string>
+
+    <!-- Creación -->
+    <string name="crear_titulo">Nuevo recordatorio</string>
+    <string name="campo_titulo">Título</string>
+    <string name="campo_descripcion">Descripción (opcional)</string>
+    <string name="campo_categoria">Categoría</string>
+    <string name="campo_prioridad">Prioridad</string>
+    <string name="campo_obligatorio">Obligatorio: elegí una opción</string>
+    <string name="crear_guardar">Guardar</string>
+    <string name="crear_guardando">Guardando…</string>
+    <string name="crear_cancelar">Cancelar</string>
+    <string name="crear_error_titulo">No se pudo guardar</string>
+
+    <!-- Detalle -->
+    <string name="detalle_titulo">Detalle</string>
+    <string name="detalle_cargando">Cargando recordatorio…</string>
+    <string name="detalle_no_encontrado">No existe un recordatorio con el id %1$d.</string>
+    <string name="detalle_sin_descripcion">Sin descripción</string>
+    <string name="detalle_sin_fecha">Sin fecha límite</string>
+    <string name="detalle_sin_ubicacion">Sin ubicación</string>
+    <string name="detalle_sin_etiquetas">Sin etiquetas</string>
+
+    <!-- Comunes -->
+    <string name="volver">Volver</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="error_icono">Error</string>
 </resources>

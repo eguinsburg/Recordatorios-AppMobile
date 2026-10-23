@@ -75,18 +75,23 @@ sealed class ResultadoValidacion {
     data class Invalido(val titulo: String, val errores: List<String>) : ResultadoValidacion()
 }
 
-/** Estados posibles de la pantalla principal; evita combinar booleanos contradictorios. */
-sealed class EstadoPantalla {
-    object Cargando : EstadoPantalla()
-    data class ConDatos(val recordatorios: List<Recordatorio>) : EstadoPantalla()
-    object SinResultados : EstadoPantalla()
-    data class Error(val mensaje: String) : EstadoPantalla()
-}
-
 /** Filtros que ofrece la pantalla. */
 sealed class Filtro {
     object Todos : Filtro()
     object Pendientes : Filtro()
     object Completados : Filtro()
     object AltaPrioridad : Filtro()
+}
+
+/**
+ * Opciones definidas que puede elegir el formulario. Se inicializan con `lazy` para
+ * no leer los objects de una sealed class antes de que estén construidos.
+ */
+object Catalogo {
+    val categorias: List<Categoria> by lazy {
+        listOf(Categoria.Trabajo, Categoria.Personal, Categoria.Salud, Categoria.Estudio, Categoria.Hogar)
+    }
+    val prioridades: List<Prioridad> by lazy {
+        listOf(Prioridad.Alta, Prioridad.Media, Prioridad.Baja)
+    }
 }
